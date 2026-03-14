@@ -1,0 +1,41 @@
+@import '../styles/variables.scss';
+
+.navbar {
+  background-color: $white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: $font-title;
+    font-size: 1.5rem;
+    color: $primary-blue;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    a {
+      font-weight: 600;
+      color: $text-secondary;
+      &:hover { color: $primary-blue; }
+    }
+
+    .user-name {
+      color: $primary-blue;
+      font-weight: 600;
+    }
+  }
+}

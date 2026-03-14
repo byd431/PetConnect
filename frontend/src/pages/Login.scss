@@ -1,0 +1,75 @@
+@import '../styles/variables.scss';
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg-color;
+
+  .login-card {
+    background: $white;
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 2rem;
+      color: $primary-blue;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      .form-group {
+        text-align: left;
+        
+        label {
+          display: block;
+          margin-bottom: 0.5rem;
+          font-weight: 600;
+          color: $text-secondary;
+        }
+
+        input {
+          width: 100%;
+          padding: 0.8rem;
+          border: 1px solid #ddd;
+          border-radius: 4px;
+          font-family: inherit;
+
+          &:focus {
+            outline: none;
+            border-color: $primary-blue;
+          }
+        }
+      }
+
+      .btn {
+        margin-top: 1rem;
+        width: 100%;
+        padding: 0.8rem;
+      }
+    }
+
+    .error {
+      color: $error-red;
+      font-size: 0.9rem;
+    }
+
+    .login-footer {
+      margin-top: 2rem;
+      border-top: 1px solid #eee;
+      padding-top: 1rem;
+      color: $text-secondary;
+
+      p { margin-bottom: 0.5rem; font-weight: 600; }
+      small { display: block; margin-bottom: 0.2rem; }
+    }
+  }
+}

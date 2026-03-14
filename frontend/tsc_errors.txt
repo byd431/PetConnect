@@ -1,0 +1,6 @@
+src/features/auth/authService.ts(2,30): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/features/auth/authService.ts(7,19): error TS7006: Parameter 'email' implicitly has an 'any' type.
+src/features/auth/authService.ts(7,26): error TS7006: Parameter 'password' implicitly has an 'any' type.
+src/features/auth/authService.ts(11,22): error TS7006: Parameter 'userData' implicitly has an 'any' type.
+src/features/auth/useAuthStore.ts(3,36): error TS2307: Cannot find module '../types' or its corresponding type declarations.
+src/pages/Dashboard.tsx(17,11): error TS6133: 'user' is declared but its value is never read.

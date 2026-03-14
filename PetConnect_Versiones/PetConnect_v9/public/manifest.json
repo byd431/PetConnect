@@ -1,0 +1,22 @@
+{
+  "name": "PetConnect",
+  "short_name": "PetConnect",
+  "description": "La plataforma definitiva para el cuidado de tus mascotas",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ecf0f9",
+  "theme_color": "#4682ca",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

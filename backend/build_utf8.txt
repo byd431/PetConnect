@@ -1,0 +1,327 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------< com.adrigm:petconnect-backend >--------------------
+[INFO] Building petconnect-backend 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.3.2:clean (default-clean) @ petconnect-backend ---
+[INFO] Deleting C:\Users\navas\Desktop\PetConnect\backend\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.3.1:resources (default-resources) @ petconnect-backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.11.0:compile (default-compile) @ petconnect-backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 25 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/JwtUtil.java:[40,17] cannot find symbol
+  symbol:   method setSigningKey(java.security.Key)
+  location: interface io.jsonwebtoken.JwtBuilder
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/CustomUserDetailsService.java:[26,21] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/CustomUserDetailsService.java:[27,21] cannot find symbol
+  symbol:   method getPassword()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/CustomUserDetailsService.java:[28,21] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/pet/PetService.java:[21,48] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/pet/PetService.java:[26,12] cannot find symbol
+  symbol:   method setOwner(com.adrigm.petconnectbackend.features.user.User)
+  location: variable pet of type com.adrigm.petconnectbackend.features.pet.Pet
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[31,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[35,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[36,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[37,57] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[38,32] cannot find symbol
+  symbol:   method getNombre()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[39,35] cannot find symbol
+  symbol:   method getApellidos()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[40,29] cannot find symbol
+  symbol:   method getDni()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[41,34] cannot find symbol
+  symbol:   method getTelefono()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[42,53] cannot find symbol
+  symbol:   method getRole()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[42,81] cannot find symbol
+  symbol:   method getRole()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[47,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[49,45] cannot find symbol
+  symbol:   method getFotoUrl()
+  location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[49,26] cannot find symbol
+  symbol:   method getId()
+  location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[48,103] cannot find symbol
+  symbol:   method getRoles()
+  location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[48,80] cannot find symbol
+  symbol:   method getNombre()
+  location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[48,58] cannot find symbol
+  symbol:   method getEmail()
+  location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[54,64] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[54,84] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[56,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[59,50] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[61,21] cannot find symbol
+  symbol:   method getFotoUrl()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,105] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,88] cannot find symbol
+  symbol:   method getRoles()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,70] cannot find symbol
+  symbol:   method getNombre()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,53] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/social/SocialService.java:[26,13] cannot find symbol
+  symbol:   method setAutor(com.adrigm.petconnectbackend.features.user.User)
+  location: variable post of type com.adrigm.petconnectbackend.features.social.Post
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/social/SocialService.java:[27,13] cannot find symbol
+  symbol:   method setFecha(java.time.LocalDateTime)
+  location: variable post of type com.adrigm.petconnectbackend.features.social.Post
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[44,34] constructor RegisterRequest in class com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[46,34] constructor RegisterRequest in class com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[48,34] constructor RegisterRequest in class com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest cannot be applied to given types;
+  required: no arguments
+  found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[61,26] cannot find symbol
+  symbol:   method builder()
+  location: class com.adrigm.petconnectbackend.features.pet.Pet
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[78,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[80,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[82,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[84,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[86,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[92,33] constructor Post in class com.adrigm.petconnectbackend.features.social.Post cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,com.adrigm.petconnectbackend.features.user.User,java.lang.String,java.lang.String,com.adrigm.petconnectbackend.features.social.PostType,java.time.LocalDateTime
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[95,33] constructor Post in class com.adrigm.petconnectbackend.features.social.Post cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,com.adrigm.petconnectbackend.features.user.User,java.lang.String,java.lang.String,com.adrigm.petconnectbackend.features.social.PostType,java.time.LocalDateTime
+  reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[98,33] constructor Post in class com.adrigm.petconnectbackend.features.social.Post cannot be applied to given types;
+  required: no arguments
+  found:    <nulltype>,com.adrigm.petconnectbackend.features.user.User,java.lang.String,java.lang.String,com.adrigm.petconnectbackend.features.social.PostType,java.time.LocalDateTime
+  reason: actual and formal argument lists differ in length
+[INFO] 45 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.018 s
+[INFO] Finished at: 2026-02-18T14:04:02+01:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project petconnect-backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/JwtUtil.java:[40,17] cannot find symbol
+[ERROR]   symbol:   method setSigningKey(java.security.Key)
+[ERROR]   location: interface io.jsonwebtoken.JwtBuilder
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/CustomUserDetailsService.java:[26,21] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/CustomUserDetailsService.java:[27,21] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/security/CustomUserDetailsService.java:[28,21] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/pet/PetService.java:[21,48] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/pet/PetService.java:[26,12] cannot find symbol
+[ERROR]   symbol:   method setOwner(com.adrigm.petconnectbackend.features.user.User)
+[ERROR]   location: variable pet of type com.adrigm.petconnectbackend.features.pet.Pet
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[31,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[35,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[36,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[37,57] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[38,32] cannot find symbol
+[ERROR]   symbol:   method getNombre()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[39,35] cannot find symbol
+[ERROR]   symbol:   method getApellidos()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[40,29] cannot find symbol
+[ERROR]   symbol:   method getDni()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[41,34] cannot find symbol
+[ERROR]   symbol:   method getTelefono()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[42,53] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[42,81] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[47,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[49,45] cannot find symbol
+[ERROR]   symbol:   method getFotoUrl()
+[ERROR]   location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[49,26] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[48,103] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[48,80] cannot find symbol
+[ERROR]   symbol:   method getNombre()
+[ERROR]   location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[48,58] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable savedUser of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[54,64] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[54,84] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[56,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.adrigm.petconnectbackend.features.auth.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[59,50] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[61,21] cannot find symbol
+[ERROR]   symbol:   method getFotoUrl()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,105] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,88] cannot find symbol
+[ERROR]   symbol:   method getRoles()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,70] cannot find symbol
+[ERROR]   symbol:   method getNombre()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/auth/AuthService.java:[60,53] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.adrigm.petconnectbackend.features.user.User
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/social/SocialService.java:[26,13] cannot find symbol
+[ERROR]   symbol:   method setAutor(com.adrigm.petconnectbackend.features.user.User)
+[ERROR]   location: variable post of type com.adrigm.petconnectbackend.features.social.Post
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/features/social/SocialService.java:[27,13] cannot find symbol
+[ERROR]   symbol:   method setFecha(java.time.LocalDateTime)
+[ERROR]   location: variable post of type com.adrigm.petconnectbackend.features.social.Post
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[44,34] constructor RegisterRequest in class com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[46,34] constructor RegisterRequest in class com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[48,34] constructor RegisterRequest in class com.adrigm.petconnectbackend.features.auth.AuthDTOs.RegisterRequest cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[61,26] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.adrigm.petconnectbackend.features.pet.Pet
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[78,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[80,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[82,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[84,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[86,35] constructor Clinic in class com.adrigm.petconnectbackend.features.clinic.Clinic cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,java.lang.String,double,double,boolean,java.lang.String,java.lang.String,java.lang.String
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[92,33] constructor Post in class com.adrigm.petconnectbackend.features.social.Post cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,com.adrigm.petconnectbackend.features.user.User,java.lang.String,java.lang.String,com.adrigm.petconnectbackend.features.social.PostType,java.time.LocalDateTime
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[95,33] constructor Post in class com.adrigm.petconnectbackend.features.social.Post cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,com.adrigm.petconnectbackend.features.user.User,java.lang.String,java.lang.String,com.adrigm.petconnectbackend.features.social.PostType,java.time.LocalDateTime
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] /C:/Users/navas/Desktop/PetConnect/backend/src/main/java/com/adrigm/petconnectbackend/common/DataInitializer.java:[98,33] constructor Post in class com.adrigm.petconnectbackend.features.social.Post cannot be applied to given types;
+[ERROR]   required: no arguments
+[ERROR]   found:    <nulltype>,com.adrigm.petconnectbackend.features.user.User,java.lang.String,java.lang.String,com.adrigm.petconnectbackend.features.social.PostType,java.time.LocalDateTime
+[ERROR]   reason: actual and formal argument lists differ in length
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
